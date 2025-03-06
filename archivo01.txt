@@ -116,3 +116,25 @@ To https://github.com/Paulina2025/programacion.git
 
 hp@DESKTOP-TB3DHKI MINGW64 /c/programacion/programacion (main)
 $
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion/programacion (main)
+$ git add archivo01.txt
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion/programacion (main)
+$ git commit -m "Actualiza archivo01.txt, sube primer cambio archivo en programacion hoy mar5"
+[main 4398285] Actualiza archivo01.txt, sube primer cambio archivo en programacion hoy mar5
+ 1 file changed, 118 insertions(+)
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion/programacion (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.30 KiB | 1.30 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Paulina2025/programacion.git
+   808c6dc..4398285  main -> main
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion/programacion (main)
+
