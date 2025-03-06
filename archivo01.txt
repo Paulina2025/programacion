@@ -1,0 +1,118 @@
+hp@DESKTOP-TB3DHKI MINGW64 ~ (main)
+$ cd
+
+hp@DESKTOP-TB3DHKI MINGW64 ~ (main)
+$ cd
+
+hp@DESKTOP-TB3DHKI MINGW64 ~ (main)
+$ ls
+'3D Objects'/
+ AppData/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Datos de programa'@
+ Desktop/
+ Documents/
+ Downloads/
+'Entorno de red'@
+ Favorites/
+ IdeaProjects/
+ Impresoras@
+ IntelGraphicsProfiles/
+ Jedi/
+ Links/
+'Menú Inicio'@
+'Mis documentos'@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TM.blf
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Plantillas@
+ README.md
+ Reciente@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+ anaconda3/
+ bluej/
+ contacto
+ inicio
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ preguntas
+ primer/
+ principiante/
+ programacion/
+ reprositorio/
+
+hp@DESKTOP-TB3DHKI MINGW64 ~ (main)
+$ cd \
+> q
+bash: cd: q: No such file or directory
+
+hp@DESKTOP-TB3DHKI MINGW64 ~ (main)
+$ cd c:\programacion
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion
+$ git config --global user.name 'Paulina Rico'
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion
+$ git config --global user.emial 'maria_rico91171@elpoli.edu.co'
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion
+$ PWD
+/c/programacion
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion
+$ pwd
+/c/programacion
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion
+$ git clone https://github.com/Paulina2025/programacion.git
+Cloning into 'programacion'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion
+$ ls
+instalacionGit/  programacion/
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion
+$ cd programacion
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion/programacion (main)
+$ ls
+README.md
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion/programacion (main)
+$ touch archivo01.txt
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion/programacion (main)
+$ git add archivo01.txt
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion/programacion (main)
+$ git commit -m "Añadir archivo01.txt, sube primer archivo en programacion hoy mar5"[main 808c6dc] Añadir archivo01.txt, sube primer archivo en programacion hoy mar5
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 archivo01.txt
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion/programacion (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 327 bytes | 327.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Paulina2025/programacion.git
+   d701d1b..808c6dc  main -> main
+
+hp@DESKTOP-TB3DHKI MINGW64 /c/programacion/programacion (main)
+$
